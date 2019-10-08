@@ -33,3 +33,7 @@ header > .inner {
 .header-nav ul li {
   padding: 10px;
 }
+.header-nav ul li a {
+  color: #333;
+  text-decoration: underline;
+}
