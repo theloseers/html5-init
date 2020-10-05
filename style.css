@@ -85,3 +85,25 @@ header > .inner {
   text-shadow: 1px 1px 10px #000;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "left nav nav right"
+    "left copy copy right";
+}
+footer nav {
+  grid-area: nav;
+}
+footer nav ul {
+  padding: 20px 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+footer > p {
+  grid-area: copy;
+}
