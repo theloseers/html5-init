@@ -30,6 +30,17 @@ header > .inner {
   justify-content: space-between;
 }
 
+@media (max-width: 1139px) {
+  header > .inner {
+    max-width: 982px;
+  }
+}
+@media (max-width: 1024px) {
+  header > .inner {
+    max-width: 768px;
+  }
+}
+
 .header-nav ul {
   display: flex;
   list-style: none;
